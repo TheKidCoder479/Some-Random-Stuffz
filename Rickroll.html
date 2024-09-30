@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not a Rickroll...</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: black;
+        }
+        #playButton {
+            padding: 15px 25px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            background-color: #ff4500;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button id="playButton">Play Video</button>
+    <video id="myVideo" style="display: none;">
+        <source src="NeverGonnaGiveYouUp720pFULLVIDEO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        document.getElementById('playButton').addEventListener('click', () => {
+            const video = document.getElementById('myVideo');
+            video.style.display = 'block';
+            video.play().then(() => {
+                if (video.requestFullscreen) {
+                    video.requestFullscreen();
+                } else if (video.mozRequestFullScreen) { // Firefox
+                    video.mozRequestFullScreen();
+                } else if (video.webkitRequestFullscreen) { // Chrome, Safari, Opera
+                    video.webkitRequestFullscreen();
+                } else if (video.msRequestFullscreen) { // IE/Edge
+                    video.msRequestFullscreen();
+                }
+            }).catch(error => {
+                console.error('Error trying to play the video:', error);
+            });
+        });
+    </script>
+</body>
+</html>
