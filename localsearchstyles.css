@@ -1,0 +1,137 @@
+/* Base styles (already provided) */
+body {
+    background-color: #222;
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h1.title {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+}
+
+p.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+div.search-box {
+    width: 300px;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin: 20px auto;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.smalltitle {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+div.sites {
+    margin: 20px auto;
+    width: 350px;
+    background: #333;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.sites ul {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #0040FF;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+/* --- Search Results --- */
+div.results {
+    margin-top: 30px;
+    background-color: #333;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Individual result blocks */
+.resultblock {
+    margin-bottom: 50px;
+}
+
+/* Result link (site name) */
+.resultlink {
+    display: block;
+    font-size: 1.6em;
+    color: #0040ff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    transition: color 0.2s;
+}
+
+.resultlink:hover {
+    color: #0070ff;
+    text-decoration: underline;
+}
+
+/* Result text (snippet/URL preview) */
+.resulttext {
+    font-size: 1em;
+    color: #ddd;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+/* If no results */
+.no-results {
+    text-align: center;
+    font-size: 1.3em;
+    color: #aaa;
+    padding: 20px;
+}
+
+/* Links in other places */
+a {
+    color: #0040FF;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.2s;
+    text-align: center;
+}
+
+a:hover {
+    color: #0070ff;
+    text-decoration: underline;
+    text-align: center;
+}

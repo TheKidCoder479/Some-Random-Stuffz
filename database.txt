@@ -1,0 +1,150 @@
+https://google.com
+Google
+https://youtube.com
+YouTube
+https://microsoft.com
+Microsoft
+https://xbox.com
+Xbox
+https://playstation.com
+Playstation
+https://sony.com
+Sony
+https://chatgpt.com
+ChatGPT
+https://w3schools.com
+W3Schools
+https://en.wikipedia.org
+Wikipedia - English
+https://zh.wikipedia.org
+Wikipedia - Chinese
+https://es.wikipedia.org
+Wikipedia - Spanish
+https://it.wikipedia.org
+Wikipedia - Italian
+https://jp.wikipedia.org
+Wikipedia - Japanese
+https://spotify.com
+Spotify
+https://apple.com
+Apple
+https://somerandomstuffz.com
+somerandomstuffz
+https://facebook.com
+Facebook
+https://x.com
+X (Twitter)
+https://instagram.com
+Instagram
+https://linkedin.com
+LinkedIn
+https://amazon.com
+Amazon
+https://reddit.com
+Reddit
+https://netflix.com
+Netflix
+https://pinterest.com
+Pinterest
+https://ebay.com
+eBay
+https://quora.com
+Quora
+https://tiktok.com
+TikTok
+https://flickr.com
+Flickr
+https://soundcloud.com
+SoundCloud
+https://vimeo.com
+Vimeo
+https://meetup.com
+Meetup
+https://eventbrite.com
+Eventbrite
+https://angieslist.com
+Angie's List
+https://healthline.com
+Healthline
+https://webmd.com
+WebMD
+https://investopedia.com
+Investopedia
+https://theverge.com
+The Verge
+https://vox.com
+Vox
+https://rollingstone.com
+Rolling Stone
+https://cnet.com
+CNET
+https://pcmag.com
+PCMag
+https://lifehacker.com
+Lifehacker
+https://howtogeek.com
+How-To Geek
+https://boredpanda.com
+Bored Panda
+https://9gag.com
+9GAG
+https://crunchbase.com
+Crunchbase
+https://producthunt.com
+Product Hunt
+https://stackoverflow.com
+Stack Overflow
+https://codepen.io
+CodePen
+https://replit.com
+Replit
+https://tumblr.com
+Tumblr
+https://dropbox.com
+Dropbox
+https://slack.com
+Slack
+https://coursera.com
+Coursera
+https://khanacademy.com
+Khan Academy
+https://bbc.com
+BBC
+https://nytimes.com
+New York Times
+https://forbes.com
+Forbes
+https://yelp.com
+Yelp
+https://twitch.tv
+Twitch
+https://wordpress.com
+WordPress
+https://github.com
+GitHub
+https://medium.com
+Medium
+https://adobe.com
+Adobe
+https://walmart.com
+Walmart
+https://target.com
+Target
+https://bestbuy.com
+Best Buy
+https://fandom.com
+Fandom
+https://imgur.com
+Imgur
+https://tripadvisor.com
+TripAdvisor
+https://booking.com
+Booking.com
+https://zillow.com
+Zillow
+https://indeed.com
+Indeed
+https://merriam-webster.com
+Merriam-Webster
+https://nationalgeographic.com
+National Geographic
