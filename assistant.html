@@ -1,81 +1,87 @@
-<!DOCTYPE HTML>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Assistant Download</title>
-    <style>
-        body {
-            font-family: "Comic Sans MS", cursive, sans-serif;
-            background-color: #333
-        }
-        h1 {
-            color: #fff;
-            text-align: center;
-            font-family: "Comic Sans MS", cursive, sans-serif;
-        }
-        p {
-            color: #fff;
-            text-align: center;
-            font-family: "Comic Sans MS", cursive, sans-serif;
-        }
-        a {
-            text-decoration: none;
-            color: #0060ff;
-            font-family: "Comic Sans MS", cursive, sans-serif;
-        }
-        div {
-            text-align: center;
-            font-family: "Comic Sans MS", cursive, sans-serif;
-            margin-top: 20px;
-            border-radius: 10px;
-            padding: 20px;
-            background-color: #222;
-        }
-        </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Assistant Download!</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#161a22; --text:#e8ecf1; --muted:#9aa7b3; --accent:#4da3ff; --accent2:#7bd389;
+  }
+  html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 "Comic Sans MS", cursive, sans-serif}
+  .wrap{max-width:860px;margin:48px auto;padding:0 20px}
+  h1{font-size:2rem;margin:0 0 8px}
+  .tag{display:inline-block;background:var(--panel);border:1px solid #222935;color:var(--muted);
+       padding:6px 10px;border-radius:8px;font-size:.9rem;margin:4px 8px 0 0}
+  .card{background:var(--panel);border:1px solid #222935;border-radius:14px;padding:18px 20px;margin:18px 0}
+  code,kbd{background:#0c0f13;border:1px solid #1b2230;padding:1px 6px;border-radius:6px}
+  a.button{display:inline-block;background:linear-gradient(180deg,var(--accent),#2a7fdc);
+           color:white;text-decoration:none;font-weight:600;padding:12px 18px;border-radius:12px}
+  a.button:hover{filter:brightness(1.06)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+  ul{margin:10px 0 0 22px}
+  .meta{color:var(--muted);font-size:.92rem}
+  .ok{color:var(--accent2);font-weight:600}
+</style>
     <link href="favicon.ico" rel="icon" type="image/x-icon">
 </head>
 <body>
+  <div class="wrap">
+    <h1>Download Assistant</h1>
+    <p class="meta">
+      A tiny Python “AI” assistant to automate quick tasks (reminders, conversion, math, files, search).
+      <span class="tag">Windows 10/11</span>
+      <span class="tag">Single .exe</span>
+      <span class="tag">No install</span>
+    </p>
 
-<h1>Download Assistant</h1>
-<div>
-<p>This "AI" Assistant is a program made in python by me that can automate your daily tasks!</p>
-<p>It can be used to automate tasks such as: reminders, conversion, math, making files, etc</p>
-<p>In the program you can list the commands but i'll list them here right on this page: </p>
-<p> help - lists commands </p>
-<p>weather - prints the local weather</p>
-<p>connect [site url] - opens a site with that url</p>
-<p>new [file name] - makes a file with that name</p>
-<p>run [file path/name] - executes that file with the default program</p>
-<p>set assistant name [name] - sets the ai's name and saves it to line 1 in config.txt</p>
-<p>set user name [name] - sets the users name and saves it to line 2 in config.txt</p>
-<p>print user name - prints line 2 of config.txt</p>
-<p>print assistant name - prints line 1 of config.txt</p>
-<p>search [query] - searchs and opens a google query with that query</p>
-<p>search youtube [query] - searchs and opens a youtube query with that query</p>
-<p>save [variable number] [content] - saves the content of the variable at the line (variable number) in variables.txt</p>
-<p>load [variable number] - prints the contents of the line entered in variables.txt</p>
-<p>remind [minutes] [seconds] [text] - prints text onto the screen in a set amount of time</p>
-<p>calc [1] add/sub/mul/div [2] - arithmetic</p>
-<p>coin - 50% Chance of Heads 50% Chance of Tails</p>
-<p>roll [sides] - rolls a dice with that many sides, so a dice with 10 sides would have a 10% of each number 1-10</p>
-<p>wiki [topic] - searchs wikipedia for the topic</p>
-<p>joke - tells a random joke</p>
-<p>fact - tells a random fact</p>
-<p>time - prints the time, format: "12:00 AM January 1st 2000"</p>
-<p>dir [folder path] - lists files in a folder</p>
-<p>password [length] - generates a random string at the selected length then prints it using a-z, A-Z, 1-9, 0, - and _</p>
-<p>ip - print ip</p>
-<p>translate [original lang] [target lang] [text] - translates text</p>
-<p>convert [original format] [target format] [content] - convert binary to hexadecimal or vice versa, convert fahrenheit to celsius or vice versa, convert feet to meters or vice versa, convert yards to meters or vice versa, convert inches to centimeters to vice versa, convert between bytes, kilobytes, megabytes, gigabytes and terabytes</p>
-<p>clear - clears all text on screen except for start text</p>
-<p>history - displays the last 50 inputs by the user during the current session line by line</p>
-</div>
+    <div class="card">
+      <p><a class="button" href="assistant_shell.exe" target="_blank" rel="noopener">⬇ Download EXE</a></p>
+      <p class="meta">Version: <b>1.0.0</b> • Updated: <b>2025-08-27</b> • Size: <b>13,377,536 bytes (13.4 MB)</b><br>
+      SHA-256: <code>169C6C077F629EE21C76211F155A35A8A4B272CC3D3B1DD489281E022A4DB9FB</code></p>
+      <p class="meta">Windows SmartScreen will probably warn on first run. You can keep or delete the app anytime i'm not trying to hack you :p</p>
+    </div>
 
-<div>
-    <p>Click the button below to download the assistant.</p>
-    <a href="/assistant_shell.exe" download>
-        <button style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Download Assistant</button>
-    </a>
+    <div class="card">
+      <h3>Commands</h3>
+      <div class="grid">
+        <div>
+          <ul>
+            <li><code>help</code> — lists commands</li>
+            <li><code>weather</code> — prints the local weather</li>
+            <li><code>connect &lt;url&gt;</code> — opens that site</li>
+            <li><code>new &lt;file&gt;</code> — creates a file</li>
+            <li><code>run &lt;path&gt;</code> — runs file with default app</li>
+            <li><code>set assistant name &lt;name&gt;</code></li>
+            <li><code>set user name &lt;name&gt;</code></li>
+            <li><code>print assistant name</code> / <code>print user name</code></li>
+            <li><code>search &lt;query&gt;</code> / <code>search youtube &lt;query&gt;</code></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><code>save &lt;n&gt; &lt;text&gt;</code> / <code>load &lt;n&gt;</code></li>
+            <li><code>remind &lt;min&gt; &lt;sec&gt; &lt;text&gt;</code></li>
+            <li><code>calc &lt;a&gt; add|sub|mul|div &lt;b&gt;</code></li>
+            <li><code>coin</code> • <code>roll &lt;sides&gt;</code> (each 1–N has 1/N chance)</li>
+            <li><code>wiki &lt;topic&gt;</code></li>
+            <li><code>joke</code> • <code>fact</code> • <code>time</code></li>
+            <li><code>dir &lt;folder&gt;</code> • <code>password &lt;len&gt;</code> • <code>ip</code></li>
+            <li><code>translate &lt;src&gt; &lt;dst&gt; &lt;text&gt;</code></li>
+            <li><code>convert &lt;from&gt; &lt;to&gt; &lt;value&gt;</code> (bin↔hex, °F↔°C, ft↔m, yd↔m, in↔cm, B↔KB↔MB↔GB↔TB)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Requirements & Privacy</h3>
+      <p class="meta">
+        You need Windows 10/11, I might port it to Windows 7 by using python 3.8 in the future. Internet needed for weather/search.
+        This app asks Open-Meteo for weather and ipify for IP lookup; i'm not finding your IP, I cant and dont know how to see what you do on my exe :p.
+      </p>
+      <p class="ok">If it opens and shows "Ready!" the assistant is ready! Free Assistant!</p>
+    </div>
+  </div>
 </body>
-
 </html>
